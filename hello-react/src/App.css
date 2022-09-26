@@ -1,38 +1,63 @@
 .App {
   text-align: center;
+  background-color: #1f2535;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ih-logo {
+  width: 10vh;
+  margin-right: 155vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 10vh;
+  margin-left: 10vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Logo-1 {
+  width: 80vh;
+  margin-left: 70vh;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Logo-2 {
+  width: 60vh;
+  margin-top: 45vh;
+  margin-left: 95vh;
+  position: absolute;
+}
+
+.Logo-3 {
+  width: 60vh;
+  margin-top: 67vh;
+  margin-left: 72vh;
+  /* position: absolute; */
+}
+
+.Logo-4 {
+  width: 30vh;
+  margin-top: 40vh;
+  margin-left: 5vh;
+  position: absolute;
+}
+
+.Logo-5 {
+  width: 30vh;
+  margin-top: 60vh;
+  margin-left: 5vh;
+  position: absolute;
+}
+
+.Logo-6 {
+  width: 30vh;
+  margin-top: 78vh;
+  margin-left: 5vh;
+  position: absolute;
 }
