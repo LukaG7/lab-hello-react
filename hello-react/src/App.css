@@ -9,6 +9,10 @@
   margin-right: 155vh;
 }
 
+.dash {
+  width: 4vh;
+}
+
 .header {
   color: white;
   display: flex;
@@ -60,4 +64,29 @@
   margin-top: 78vh;
   margin-left: 5vh;
   position: absolute;
+}
+
+.icon-img {
+  width: 15vh;
+}
+
+.icons-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-p {
+  width: 25vh;
+  margin-top: 0;
+  color: grey;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 10px;
 }
